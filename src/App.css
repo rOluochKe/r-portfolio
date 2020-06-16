@@ -1,38 +1,238 @@
-.App {
-  text-align: center;
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+span {
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-dark {
+  background-color: #f37b83 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #faefff !important;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+main {
+  min-height: 100%;
+  margin-top: 50px;
+  margin-bottom: -15px;
+}
+
+/* About Me */
+
+#about-text {
+  margin: 100px 0;
+}
+
+#about-me {
+  background: #f9f0ff;
+}
+
+.sub-title {
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 28px;
+  color: #492d31;
+  padding: 15px;
+}
+
+.branding {
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 94px;
+  color: #f37b83;
+  padding: 15px;
+}
+
+.text-one {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #a88590;
+  padding: 15px;
+}
+
+.about-social {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #492d31;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.my-image .card {
+  border: none;
+}
+
+.my-image {
+  background-image: url(https://via.placeholder.com/600x600);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* Services */
+#services,
+#portfolio,
+#experience,
+#skills,
+#get-in-touch {
+  background: #302729;
+  padding: 50px 15px 20px 15px;
+}
+
+#portfolio,
+#skills,
+#get-in-touch {
+  padding: 80px 15px !important;
+}
+
+.common-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #f37b83;
+  margin-bottom: 30px;
+}
+
+.main-text-one {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  color: #a88590;
+}
+
+.main-text,
+address {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 35px;
+  color: #a88590;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background: #302729;
+  padding: 15px 30px;
+  border: 1px solid #f37b83;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.fas {
+  padding: 25px;
+}
+
+.card {
+  margin-bottom: 30px;
+  background: #362a2e;
+  border-radius: 0;
+}
+
+
+/* Portfolio */
+.portfolio-items {
+  margin: 0 auto;
+}
+
+
+/* Experience */
+
+
+
+/* Skills */
+
+
+
+/* Get in Touch */
+label {
+  font-size: 15px;
+  line-height: 35px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.text-muted {
+  color: #8c8a8a !important;
+}
+
+form {
+  background: #f37b83;
+  padding: 30px;
+}
+
+.form-control {
+  background: #f37b83;
+  border-radius: 0 !important;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff !important;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.contact-btn {
+  width: 100%;
+  border-radius: 0 !important;
+  border: 1px solid #fff !important;
+  background: #f37b83 !important;
+}
+
+.form-group {
+  margin-bottom: 3rem;
+}
+
+address {
+  margin-top: 60px;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+footer {
+  height: 50px;
+  margin-top: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 555px) {
+  .branding {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 94px;
+    color: #f37b83;
+    padding: 15px;
   }
 }
