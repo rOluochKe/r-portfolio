@@ -14,9 +14,9 @@ class GetInTouch extends Component {
           <p className="main-text">Energy hidden in matter a mote of lorem ipsum dust suspended in a sunbeam billions upon ratione voluptatem sequi nesciunt permano lorem ipsum.</p>
 
           <address>
-            <strong>ADDRESS:</strong> Some Street 987, USA<br/>
-            <strong>EMAIL:</strong> company@youremail.com<br/>
-            <strong>WEBSITE:</strong> www.yourwebsite.com
+            <strong>ADDRESS:</strong> Nairobi, Kenya<br/>
+            <strong>EMAIL:</strong> rasholuoch@gmail.com<br/>
+            <strong>WEBSITE:</strong> www.raymond-oluoch.net
           </address>
         </div>
 
